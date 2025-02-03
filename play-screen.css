@@ -2,7 +2,7 @@ body {
     display: flex;
     font-family: 'Papyrus', sans-serif;
     background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbuzz.nayag.com%2Fwp-content%2Fuploads%2F2023%2F07%2FSkibidi-Toilet-Wiki.jpg&f=1&nofb=1&ipt=9b43bf376c948d32cd0e4595121a8380ed386acf924aa541ebd1644abcfe93c7&ipo=images);
-    background-size: cover;
+    background-size: 100% auto;
     background-repeat: no-repeat;
     flex-direction: column;
     align-items: center;
