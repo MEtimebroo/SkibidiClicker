@@ -28,3 +28,33 @@ h1 {
 #play-button:hover {
     border: 1px solid black;
 }
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3rem;
+        margin-top: 150px;
+    }
+
+    #play-button {
+        padding-left: 3rem;
+        padding-left: 3rem;
+        padding-top: 1rem;
+        padding-top: 1rem;
+        font-size: medium;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+        margin-top: 100px;
+    }
+
+    #play-button {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem;
+        font-size: small;
+    }
+}
