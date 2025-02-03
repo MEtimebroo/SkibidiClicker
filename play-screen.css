@@ -30,3 +30,37 @@ body {
     padding-top: 8px;
     padding-bottom: 8px;
 }
+
+@media (max-width: 768px) {
+    .buttons {
+        width: 150px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 1.2rem;
+    }
+
+    #plus-1 {
+        margin-top: 50px;
+    }
+
+    body {
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .buttons {
+        width: 120px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        font-size: 1rem;
+    }
+
+    #plus-1 {
+        margin-top: 30px;
+    }
+
+    body {
+        padding-top: 20px;
+    }
+}
