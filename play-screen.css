@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    font-family: 'Papyrus', sans-serif;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbuzz.nayag.com%2Fwp-content%2Fuploads%2F2023%2F07%2FSkibidi-Toilet-Wiki.jpg&f=1&nofb=1&ipt=9b43bf376c948d32cd0e4595121a8380ed386acf924aa541ebd1644abcfe93c7&ipo=images);
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+    padding-top: 75px;
+}
+
+#plus-1 {
+    margin-top: 70px;
+}
+
+.buttons {
+    margin-top: 20px;
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: darkslategray;
+    border-radius: 5px;
+    border: 0;
+    color: whitesmoke;
+}
+
+.buttons:hover {
+    border: 2px solid gray;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+    .buttons {
+        width: 150px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 1.2rem;
+    }
+
+    .buttons:hover {
+        padding-top: 6px;
+        padding-bottom: 6px;
+        width: 148px;
+        border: 2px solid gray;
+    }
+
+    #plus-1 {
+        margin-top: 50px;
+    }
+
+    body {
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .buttons {
+        width: 120px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        font-size: 1rem;
+    }
+
+    .buttons:hover {
+        width: 118px;
+        padding-top: 4px;
+        padding-top: 4px;
+        border: 2px solid gray;
+    }
+
+    #plus-1 {
+        margin-top: 30px;
+    }
+
+    body {
+        padding-top: 20px;
+    }
+}
