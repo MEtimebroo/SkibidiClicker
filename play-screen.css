@@ -39,6 +39,11 @@ body {
         font-size: 1.2rem;
     }
 
+    .buttons:hover {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
     #plus-1 {
         margin-top: 50px;
     }
@@ -54,6 +59,11 @@ body {
         padding-top: 6px;
         padding-bottom: 6px;
         font-size: 1rem;
+    }
+
+    .buttons:hover {
+        padding-top: 4px;
+        padding-bottom: 4px;
     }
 
     #plus-1 {
